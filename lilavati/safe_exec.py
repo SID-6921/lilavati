@@ -24,7 +24,8 @@ ALLOWED = (ast.Module, ast.FunctionDef, ast.arguments, ast.arg, ast.Return, ast.
            ast.IfExp, ast.If, ast.For, ast.While, ast.Break, ast.Continue, ast.Pass, ast.List, ast.Tuple, ast.Dict, ast.Set,
            ast.Subscript, ast.Slice, ast.ListComp, ast.SetComp, ast.DictComp, ast.GeneratorExp, ast.comprehension,
            ast.Call, ast.keyword, ast.Attribute, ast.Import, ast.ImportFrom, ast.alias, ast.JoinedStr, ast.FormattedValue,
-           ast.Starred, ast.Assert, ast.operator, ast.unaryop, ast.boolop, ast.cmpop, ast.expr_context)
+           ast.Starred, ast.Assert, ast.Try, ast.ExceptHandler, ast.operator, ast.unaryop, ast.boolop, ast.cmpop,
+           ast.expr_context)
 MAX_CHARS, MAX_NODES = 6000, 3000
 
 
